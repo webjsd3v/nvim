@@ -14,9 +14,9 @@ set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 set hlsearch
 set wildmenu
 set encoding=utf8
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 set history=10000
 set ruler
@@ -36,8 +36,8 @@ set smarttab
 set ignorecase
 set infercase
 set smartcase
-set pumblend=20
-set winblend=20
+set pumblend=10
+set winblend=10
 set nofoldenable
 set undofile
 set undodir=~/.nvim/_undo/
@@ -50,7 +50,7 @@ set path=~/main/**/*
 set mouse=a
 set mousehide
 set noswapfile
-set guifont=Fantasque\ Sans\ Mono:h13
+set guifont=Fantasque\ Sans\ Mono:h14
 set belloff=all
 set shortmess-=S
 set shortmess+=c
